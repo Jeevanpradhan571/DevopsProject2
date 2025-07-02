@@ -28,10 +28,6 @@ function ContentCarousel() {
             left
           </button>
           <ul id="container" style={{ zIndex: 2 }}>
-          import React from "react";
-import ReactDOM from "react-dom/client";
-import ContentTile from "./ContentTile";
-import ContentTileData from "./ContentTileData";
 
 function abc(data) {
   return <ContentTile poster={data.poster} />;
